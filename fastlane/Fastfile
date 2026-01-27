@@ -1,0 +1,57 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Push a new beta build to TestFlight"
+  lane :beta do
+    ENV["FASTLANE_USER"] # Will use the user from the .env.default
+    ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"] # Will use the app-specific password from .env.default
+
+
+    # Increment the build number
+    increment_build_number(xcodeproj: "GentleMan2024.xcodeproj")
+    
+    # Build the app
+    build_app(
+      workspace: "GentleMan2024.xcworkspace",
+      scheme: "GentleMan2024",
+      export_method: "app-store" # Ensure the export method matches your needs
+    )
+    
+    # Upload to TestFlight
+    upload_to_testflight(skip_waiting_for_build_processing: true) # Add options if needed
+  end
+
+  desc "Submit the app to the App Store for review"
+  lane :release do
+    # Ensure build is updated
+    increment_build_number(xcodeproj: "GentleMan2024.xcodeproj")
+    
+    # Build the app for the App Store
+    build_app(
+      workspace: "GentleMan2024.xcworkspace",
+      scheme: "GentleMan2024",
+      export_method: "app-store"
+    )
+    
+    # Upload to the App Store
+    upload_to_app_store(
+      skip_metadata: false, # Set true to skip metadata updates
+      skip_screenshots: true
+    )
+  end
+end

@@ -1,0 +1,24 @@
+
+/* Class = "UITextField"; placeholder = "Enter your name"; ObjectID = "5Qr-oN-smx"; */
+"5Qr-oN-smx.placeholder" = "Enter your name";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "I88-wL-eQA"; */
+"I88-wL-eQA.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "O75-W1-w8y"; */
+"O75-W1-w8y.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "Register here"; ObjectID = "XRG-2N-tK4"; */
+"XRG-2N-tK4.text" = "Register here";
+
+/* Class = "UILabel"; text = "Your Name"; ObjectID = "oR2-rG-0Yp"; */
+"oR2-rG-0Yp.text" = "Your Name";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "psd-QX-Skg"; */
+"psd-QX-Skg.normalTitle" = "English";
+
+/* Class = "UILabel"; text = "Create your account now and experience the ease of booking tailored barber services at your fingertips!"; ObjectID = "s0O-0N-iK2"; */
+"s0O-0N-iK2.text" = "Create your account now and experience the ease of booking tailored barber services at your fingertips!";
+
+/* Class = "UITextField"; placeholder = "Enter your Email"; ObjectID = "yJ6-mu-TTD"; */
+"yJ6-mu-TTD.placeholder" = "Enter your Email";

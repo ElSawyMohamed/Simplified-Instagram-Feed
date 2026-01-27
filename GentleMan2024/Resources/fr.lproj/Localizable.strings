@@ -1,0 +1,131 @@
+/* 
+  Localizable.strings
+  GentleMan2024
+
+  Created by MohamedSawy on 4/16/24.
+  
+*/
+
+// Global
+"No internet connection" = "Pas de connexion Internet";
+"Failed" = "Échec de connexion";
+
+// Login VC
+"hello_lbl" = "Bonjour à nouveau! 👋";
+"login_continue" = "Continuer";
+"login_phone" = "Numéro de téléphone";
+"login_txt" = "Gentle man, votre sanctuaire de toilettage – Connectez-vous et laissez-nous améliorer votre look avec des services de barbier sans faille !";
+"Please enter your mobile number" = "Entrez s'il vous plaît votre numéro de téléphone";
+
+// Onboard VC
+"selected_lang_lbl" = "French";
+"get_start_btn" = "Commencer";
+"skip_btn" = "Sauter";
+"onBoard_txt1" = "Commencez avec Gentle Man 💇‍♂️ ";
+"onBoard_txt2" = "Planifiez facilement votre prochaine coupe de cheveux en quelques clics.";
+"onBoard_txt3" = " Réservez vos services préférés ✨ ";
+"onBoard_txt4" = "Des coupes de cheveux aux soins du visage, nous avons ce qu'il vous faut. Rappels et mises à jour en temps réel..";
+"onBoard_txt5" = " Sélectionnez votre date et heure préférées ⏱️ ";
+"onBoard_txt6" = "garantissant une expérience de réservation sans tracas et adaptée à votre emploi du temps.";
+"onBoard_txt7" = " Ne manquez jamais un rendez-vous 📅 ";
+"onBoard_txt8" = "recevez des rappels de rendez-vous et des mises à jour en temps réel.";
+
+// Register VC
+"register_lbl" = "Inscrivez-vous ici";
+"register_txt" = "Créez votre compte maintenant et découvrez la facilité de réserver des services de barbier sur mesure à portée de main !";
+"register_name_lbl" = "votre nom";
+"register_email_lbl" = "Email";
+"register_continue_btn" = "Continuer";
+"register_name_placeHolder" = "Entrez votre nom";
+"register_email_placeHolder" = "Entrer votre Email";
+
+// Verify Account VC
+"verify_lbl" = "Vérifier";
+"verify_txt" = "Entrez un code de vérification à 4 chiffres envoyé sur votre téléphone terminé --515";
+"resend_lbl" = "Vous n'avez rien reçu ?";
+"resend_btn" = "Renvoyer";
+
+// Verify Account Option VC
+"way_resendCode_lbl" = "Façon de renvoyer le code";
+"way_resendCode_txt" = "Ne vous inquiétez pas! nous vous aiderons à récupérer votre code";
+"via_phone_lbl" = "Renvoyer via un numéro de téléphone";
+"via_phone_txt" = "Recevez le code renvoyé par SMS au +966 *** *** 515";
+"via_email_lbl" = "Renvoyer par e-mail";
+"via_email_txt" = "Obtenez le code renvoyé par e-mail m******@gmail.com";
+"via_whatsapp_lbl" = "Renvoyer via Whatsapp";
+"via_whatsapp_txt" = "Obtenez le code renvoyé via WhatsApp +966 *** *** 515";
+
+// Change Language VC
+"language_lbl" = "Langue";
+"select_lang_lbl" = "Choisir la langue";
+
+// Home Vc
+"Search by services.." = "Rechercher par services..";
+"Popular services" = "Services populaires";
+"Top Specialist" = "Top spécialiste";
+"Best Offers" = "Meilleures offres";
+
+// Branch Details
+"Services" = "Services";
+"Details" = "Détails";
+"Portfolio" = "Portefeuille";
+"Reviews" = "Avis";
+"our services" = "nos services";
+"(at salon)" = "(au salon)";
+"(at Home)" = "(à domicile)";
+"Continue" = "Continuer";
+"SR" = "SR";
+
+// Cart
+"start" = "commencer";
+"with" = "avec";
+"Cart" = "Panier";
+"Selected items" = "Articles sélectionnés";
+"Total" = "Total";
+"APPOINTMENTS" = "RENDEZ-VOUS";
+
+// Status
+"Not Confirmed" = "Non confirmé";
+"Confirmed" = "Confirmé";
+"In progress" = "En cours";
+"Completed" = "Terminé";
+"Done" = "Fait";
+"Canceled" = "Annulé";
+"No Show" = "Non présenté";
+"Paid" = "Payé";
+"Part Paid" = "Partiellement payé";
+"No Data" = "No Data";
+
+// Profile
+"profile updated successfully" = "Profil mis à jour avec succès";
+"Name Is Required" = "Le nom est requis";
+"Email Is Required" = "L'email est requis";
+"Email Not Valid" = "L'email n'est pas valide";
+"My Profile" = "Mon profil";
+"NAME" = "NOM";
+"EMAIL" = "EMAIL";
+"PHONE NUMBER" = "NUMÉRO DE TÉLÉPHONE";
+"Edit profile" = "Modifier le profil";
+"Save" = "Enregistrer";
+
+// More
+"View Profile" = "Voir le profil";
+"My Purchases" = "Mes achats";
+"My Addresses" = "Mes adresses";
+"My Wallet" = "Mon portefeuille";
+"Offers" = "Offres";
+"About Gentle Man" = "À propos de Gentle Man";
+"Language" = "Langue";
+"Log Out" = "Se déconnecter";
+"Delete Account" = "Supprimer le compte";
+
+// Appointment
+"appointment_lbl" = "Mon rendez-vous";
+"upcoming_lbl" = "À venir";
+"completed_lbl" = "Terminé";
+"canceled_lbl" = "Annulé";
+"booking_details_lbl" = "Détails de la réservation";
+"reschedule_btn" = "Replanifier";
+"cancel_btn" = "Annuler";
+"cancel_reasons_lbl" = "Raisons de l'annulation";
+"confirm_cancel_reasons_btn" = "Confirmer";

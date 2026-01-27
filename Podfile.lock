@@ -1,0 +1,48 @@
+PODS:
+  - Hero (1.6.3)
+  - Kingfisher (7.12.0)
+  - RxCocoa (6.7.1):
+    - RxRelay (= 6.7.1)
+    - RxSwift (= 6.7.1)
+  - RxRelay (6.7.1):
+    - RxSwift (= 6.7.1)
+  - RxSwift (6.7.1)
+  - SDWebImage (5.19.6):
+    - SDWebImage/Core (= 5.19.6)
+  - SDWebImage/Core (5.19.6)
+  - SwiftEntryKit (2.0.0)
+  - ViewAnimator (3.1.0)
+
+DEPENDENCIES:
+  - Hero
+  - Kingfisher (~> 7.0)
+  - RxCocoa
+  - RxSwift
+  - SDWebImage
+  - SwiftEntryKit
+  - ViewAnimator
+
+SPEC REPOS:
+  trunk:
+    - Hero
+    - Kingfisher
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SwiftEntryKit
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  Hero: 419d43384355b3168512bd8ac6a33aadd3dc575b
+  Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
+  RxCocoa: f5609cb4637587a7faa99c5d5787e3ad582b75a4
+  RxRelay: 4151ba01152436b08271e08410135e099880eae5
+  RxSwift: b9a93a26031785159e11abd40d1a55bcb8057e52
+  SDWebImage: a79252b60f4678812d94316c91da69ec83089c9f
+  SwiftEntryKit: 61b5fa36f34a97dd8013e48a7345bc4c4720be9a
+  ViewAnimator: a9ceed80266e00fd435ec4fb99b2df64d580d0e4
+
+PODFILE CHECKSUM: 9f9da54876c0d0770a5a81e91fc47115ca9cd018
+
+COCOAPODS: 1.16.2
