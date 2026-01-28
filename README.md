@@ -1,4 +1,4 @@
-# SimplifiedInstagramFeed App
+# Simplified Instagram Feed App
 
 A modern iOS application built with Swift, featuring a video feed similar to Instagram. The app follows Clean Architecture principles with MVVM pattern and uses dependency injection for better code organization and testability.
 
