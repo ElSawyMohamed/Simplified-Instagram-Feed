@@ -30,9 +30,6 @@ struct GoogleMapsConstants {
 }
 
 struct HeadersConstants {
-    static let lang = "en"
-    static let deviceType = "Ios"
-    static let deviceId = UIDevice.current.identifierForVendor!.uuidString
-    static let AppId = "105"
     static let contentType = "application/json"
+    static let apiKey = "1jsXKmnPgAefMbT0LbWacjkOh0GoTaOjQ57Jd6aMHpxZySksOJTqXu44"
 }

@@ -14,11 +14,13 @@ final class AppDIContainer {
         return DefaultDataTransferService()
     }()
     
+    
+    
     // MARK: - DIContainers of scenes
-    func makeAuthSceneDIContainer() -> AuthSceneDIContainer {
-        let dependencies = AuthSceneDIContainer.Dependencies(
+    func makeMainSceneDIContainer() -> MainSceneDIContainer {
+        let dependencies = MainSceneDIContainer.Dependencies(
             apiDataTransferService: apiDataTransferService
         )
-        return AuthSceneDIContainer(dependencies: dependencies)
+        return MainSceneDIContainer(dependencies: dependencies)
     }
 }

@@ -19,19 +19,15 @@ class SplashVC: UIViewController {
         super.viewDidLoad()
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.66) { [weak self] in
             guard let self = self else { return }
-            self.handleFirstTimeNavigation()
+            self.navigateToMainVC()
         }
     }
     
-    func navigateToLoginVC() {
+    func navigateToMainVC() {
         appFlowCoordinator = AppFlowCoordinator(
             navigationController: navigationController!,
             appDIContainer: appDIContainer
         )
-        appFlowCoordinator?.startAuth()
-    }
-    
-    func handleFirstTimeNavigation() {
-        navigateToLoginVC()
+        appFlowCoordinator?.startMain()
     }
 }

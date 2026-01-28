@@ -71,20 +71,12 @@ final class DefaultDataTransferService {
     // MARK: - Network
     private var networkService: NetworkService {
         let config = ApiDataNetworkConfig(
-
-            // Fix ME
-            baseURL: BaseURL.newProduction.url,
+            baseURL: BaseURL.development.url,
             headers: ["Content-Type": HeadersConstants.contentType,
-                      "Lang": UserDefaultsManager.shared.appLang ?? HeadersConstants.lang,
-                      "DeviceId": HeadersConstants.deviceId,
-                      "DeviceType": HeadersConstants.deviceType,
-                      "AppId": HeadersConstants.AppId,
-                      "Token" : UserDefaultsManager.shared.fcmToken ?? "",
-                      "Authorization": "Bearer \(UserDefaultsManager.shared.userToken ?? "")"
+                      "Authorization": HeadersConstants.apiKey
                      ]
         )
         return DefaultNetworkService(config: config)
-       
     }
     
     init(
