@@ -16,18 +16,18 @@ The app follows **Clean Architecture** with **MVVM (Model-View-ViewModel)** patt
 
 ```
 ┌─────────────────────────────────────────┐
-│         Presentation Layer               │
-│  (ViewControllers, ViewModels, Views)   │
+│         Presentation Layer              |
+│         (ViewModels, Views)             │
 └─────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────┐
 │          Domain Layer                   │
-│  (Entities, Use Cases, Repositories)   │
+│  (Entities, Use Cases, Repositories)    |
 └─────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────┐
 │           Data Layer                    │
-│  (Repositories, DTOs, Network Service) │
+│  (Repositories, DTOs, Network Service)  |
 └─────────────────────────────────────────┘
 ```
 
@@ -117,7 +117,7 @@ SimplifiedInstagramFeedTests/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ElSawyMohamed/Simplified-Instagram-Feed.git
    cd SimplifiedInstagramFeed
    ```
 
