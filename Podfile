@@ -2,7 +2,7 @@
 platform :ios, '14.1'
 minimum_ios_version = '14.1'
 
-target 'GentleMan2024' do
+target 'SimplifiedInstagramFeed' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
@@ -14,18 +14,6 @@ target 'GentleMan2024' do
     pod 'ViewAnimator'
     pod 'Hero'
     pod 'Kingfisher', '~> 7.0'
-
-  target 'GentleMan2024Tests' do
-    inherit! :search_paths
-    # Pods for testing
-    # Test targets inherit pods from the main target via :search_paths
-  end
-
-  target 'GentleMan2024UITests' do
-    inherit! :search_paths
-    # Pods for testing
-    # UI test targets inherit pods from the main target via :search_paths
-  end
 
 end
 
