@@ -1,4 +1,4 @@
-# GentleMan2024 - Instagram Feed App
+# SimplifiedInstagramFeed App
 
 A modern iOS application built with Swift, featuring a video feed similar to Instagram. The app follows Clean Architecture principles with MVVM pattern and uses dependency injection for better code organization and testability.
 
@@ -9,8 +9,6 @@ A modern iOS application built with Swift, featuring a video feed similar to Ins
 - **Pull to Refresh**: Refresh the feed to get latest videos
 - **Infinite Scroll**: Automatic pagination for seamless video browsing
 - **Video Caching**: Efficient video caching for offline playback
-- **Multi-language Support**: Supports Arabic (ar), English (en), and French (fr)
-- **Smooth Animations**: Hero animations and view transitions using Hero library
 
 ## 🏗️ Architecture
 
@@ -44,7 +42,7 @@ The app follows **Clean Architecture** with **MVVM (Model-View-ViewModel)** patt
 ## 📂 Project Structure
 
 ```
-GentleMan2024/
+SimplifiedInstagramFeedTests/
 ├── Application/                    # App-level configuration
 │   ├── AppDelegate.swift          # Main app delegate
 │   ├── AppFlowCoordinator.swift   # App-level navigation coordinator
@@ -66,10 +64,6 @@ GentleMan2024/
 │   │       └── ViewModel/         # ViewModels
 │   ├── MainSceneDIContainer/      # Scene-level DI container
 │   └── Flows/                     # Navigation coordinators
-│
-├── Scenes/                        # Additional feature modules
-│   ├── Cart/                      # Shopping cart feature
-│   └── Explore/                   # Explore/discovery feature
 │
 ├── Infrastructure/                # Infrastructure layer
 │   ├── Network/                   # Network service & configuration
@@ -124,7 +118,7 @@ GentleMan2024/
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd gentlemanrevamp
+   cd SimplifiedInstagramFeed
    ```
 
 2. **Install dependencies**
@@ -134,7 +128,7 @@ GentleMan2024/
 
 3. **Open the workspace**
    ```bash
-   open GentleMan2024.xcworkspace
+   open SimplifiedInstagramFeed.xcworkspace
    ```
    ⚠️ **Important**: Always open `.xcworkspace`, not `.xcodeproj`
 
@@ -156,7 +150,7 @@ The project includes comprehensive unit tests for the Feed feature:
 ⌘U (in Xcode)
 
 # Or via command line
-xcodebuild test -workspace GentleMan2024.xcworkspace -scheme GentleMan2024 -destination 'platform=iOS Simulator,name=iPhone 15'
+xcodebuild test -workspace SimplifiedInstagramFeed.xcworkspace -scheme SimplifiedInstagramFeed -destination 'platform=iOS Simulator,name=iPhone 15'
 ```
 
 ### Test Coverage
@@ -181,7 +175,7 @@ xcodebuild test -workspace GentleMan2024.xcworkspace -scheme GentleMan2024 -dest
 
 ### Test Structure
 ```
-GentleMan2024Tests/
+SimplifiedInstagramFeedTests/
 ├── FeedViewModelTests.swift      # ViewModel unit tests
 └── FeedViewControllerTests.swift  # ViewController unit tests
 ```
@@ -239,33 +233,6 @@ AppDIContainer
 - Dependency injection for testability
 - Clear separation of concerns
 - Meaningful naming conventions
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **Sandbox Permission Error**
-   - Grant Full Disk Access to Xcode in System Settings
-   - Clean DerivedData: `rm -rf ~/Library/Developer/Xcode/DerivedData/GentleMan2024-*`
-
-2. **Pod Installation Issues**
-   ```bash
-   pod deintegrate
-   pod install
-   ```
-
-3. **Build Errors**
-   - Clean build folder: `⇧⌘K`
-   - Delete DerivedData
-   - Restart Xcode
-
-4. **Test Failures**
-   - Ensure UITests are skipped in scheme (already configured)
-   - Check that test target has proper dependencies
-
-## 📄 License
-
-[Add your license information here]
 
 ## 👥 Contributors
 
